@@ -1,0 +1,84 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.container-1 {
+    width: 100%;
+    /* height: 21em; */
+    background-color: green;
+    background-image: url(../image/finegirl.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    padding: 140px 0px 90px 90px;
+    z-index: 1;
+}
+.fast{
+    font-size: 6em;
+}
+.container2 { 
+    background: royalblue;
+    padding: 35px;
+    position: relative;
+    z-index: -1;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.earn{
+    z-index: 6;
+}
+.circle1 {
+    width: 600px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgb(152, 152, 236);
+    position: absolute;
+    left: 50px;
+    top: -60px;
+    z-index: 6;
+}
+.circle2 {
+    width: 200px;
+    height: 100px;
+    background: rgb(152, 152, 236);
+    position: absolute;
+    right: 6em;
+    margin-top: -80px;
+    border-radius: 50%;
+    z-index: 6;
+}
+.container3{
+    background-color: cornsilk;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.image{
+    width: 200px;
+}
+.image1{
+    width: 100px;
+}
+.get{
+    margin-top: 3em;
+}
+.container-4{
+    padding: 6em 0;
+}
+@media only screen and (max-width:800px) {
+    .fast{
+        font-size: 4em !important;
+    }
+    .container-1{
+        background-image: none;
+        padding: 2em 0 2em 2em;
+    }
+    .circle2, .circle1{
+        display: none;
+    }
+}
+@media only screen and (max-width:300px){
+    .fast{
+        font-size: 3em !important;
+    }
+}
